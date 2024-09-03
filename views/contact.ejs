@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <form action="/contact" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p>Or you can reach me directly at:</p>
+    <ul>
+        <li>Phone: 09761025310</li>
+        <li>Email: <a href="mailto:reymelrey.mislang@gmail.com">reymelrey.mislang@gmail.com</a></li>
+    </ul>
+
+    <a href="/">Home</a> | <a href="/about">About Me</a>
+</body>
+</html>
